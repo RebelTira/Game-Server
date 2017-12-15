@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Game_Server.Game
+{
+    class SP_CustomShowFPS : Packet
+    {
+        public SP_CustomShowFPS()
+        {
+            newPacket(46543);
+            addBlock(0);
+        }
+    }
+}
